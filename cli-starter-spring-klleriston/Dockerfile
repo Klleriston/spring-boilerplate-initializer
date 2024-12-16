@@ -14,4 +14,4 @@ WORKDIR /app
 
 COPY --from=builder /app/target/cli-starter-spring-klleriston-1.0.0-SNAPSHOT.jar .
 
-ENTRYPOINT ["java", "-jar", "cli-starter-spring-klleriston-1.0.0-SNAPSHOT-shaded.jar"]
+ENTRYPOINT ["java", "-jar", "cli-starter-spring-klleriston-1.0.0-SNAPSHOT.jar"]
