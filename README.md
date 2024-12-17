@@ -11,7 +11,7 @@ Boilerplate é um template inicial de código utilizado para acelerar o desenvol
 
 ### ⚡ Por que usar este Boilerplate no Spring?
 
-- **Economia de Tempo**: Base pronta com rotas configuradas para CRUD (GET, POST, PUT, PATCH, DELETE).
+- **Economia de Tempo**: Base pronta com rotas configuradas para CRUD (GET, POST, PUT e DELETE).
 - **Padronização**: Arquitetura limpa e boas práticas aplicadas.
 - **Pronto para Produção**: Configuração com Docker e PostgreSQL.
 - **Facilidade de Instalação**: Basta um comando para iniciar o projeto.
