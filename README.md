@@ -25,7 +25,6 @@ Boilerplate é um template inicial de código utilizado para acelerar o desenvol
      - **GET** `/users` → Lista todos os usuários.
      - **POST** `/users` → Cria um novo usuário.
      - **PUT** `/users/{id}` → Atualiza todos os dados de um usuário.
-     - **PATCH** `/users/{id}` → Atualiza parcialmente os dados de um usuário.
      - **DELETE** `/users/{id}` → Remove um usuário.
 
 2. **Docker e PostgreSQL**
@@ -73,7 +72,7 @@ java -jar spring-boilerplate.jar
 
 Para rodar o projeto com Docker e PostgreSQL:
 
-1. Certifique-se de ter Docker e Docker Compose instalados.
+1. Certifique-se de ter Docker instalado.
 2. Clone o repositório e execute o seguinte comando na raiz do projeto:
 
 ```bash
