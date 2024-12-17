@@ -2,7 +2,7 @@ $RELEASE_URL = "https://github.com/Klleriston/spring-boilerplate-initializer/rel
 $BIN_NAME = "cli-starter-spring-klleriston-1.0.0-SNAPSHOT.jar"
 $INSTALL_DIR = "$HOME\spring-cli"
 
-Write-Host "Criando o diretório de instalação em $INSTALL_DIR..."
+Write-Host "Criando o diretorio de instalacao em $INSTALL_DIR..."
 if (-Not (Test-Path -Path $INSTALL_DIR)) {
     New-Item -ItemType Directory -Path $INSTALL_DIR | Out-Null
 }
@@ -12,7 +12,7 @@ $BIN_PATH = Join-Path -Path $INSTALL_DIR -ChildPath $BIN_NAME
 Invoke-WebRequest -Uri $RELEASE_URL -OutFile $BIN_PATH -UseBasicParsing
 
 if (-Not (Test-Path -Path $BIN_PATH)) {
-    Write-Host "Erro: Não foi possível baixar o arquivo. Verifique sua conexão e o link do GitHub." -ForegroundColor Red
+    Write-Host "Erro: Nao foi possivel baixar o arquivo. Verifique sua conexao e o link do GitHub." -ForegroundColor Red
     exit 1
 }
 
