@@ -36,7 +36,7 @@ public class TemplateGenerator {
 
         System.out.println(BLUE + "Projeto gerado com sucesso!" + RESET);
         System.out.println(GREEN + "Agora, para instalar as dependências, execute os seguintes comandos:" + RESET);
-        System.out.println("1. Abra o diretório do projeto com seu editor de codigo favorito (" + projectName + "/template) ");
+        System.out.println("1. Abra o diretório do projeto com seu editor de codigo favorito (cd " + projectName + "/template) ");
         System.out.println("2. instale as dependencias");
         System.out.println("3. Configure e execute o Docker Compose para rodar o container.");
         System.out.println("4. Aproveite o boilerplace intializer com um SPRING CRUD !! :D");

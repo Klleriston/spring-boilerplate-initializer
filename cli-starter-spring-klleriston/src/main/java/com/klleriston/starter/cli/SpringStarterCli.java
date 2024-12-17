@@ -31,7 +31,7 @@ public class SpringStarterCli {
 
 
             System.out.println(GREEN + "Pacotes instalados com sucesso!" + RESET);
-            System.out.printf(GREEN + "Acesse o diretório '%s' e rode o projeto com 'mvn spring-boot:run'%n" + RESET, projectName);
+            System.out.printf(GREEN + "Acesse o diretório '%s'/template e rode o projeto com 'mvn spring-boot:run'%n" + RESET, projectName);
         } catch (Exception e) {
             System.err.println(RED + "Erro ao gerar o projeto: " + e.getMessage() + RESET);
         }
